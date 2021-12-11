@@ -144,7 +144,6 @@ public class GameCourt extends JPanel {
             }
             // if snake goes out of bounds or collides with a mine
             if (snake.outOfBounds() || snake.collides(mine)) {
-                saveGameState();
                 playing = false;
                 status.setText("You Lost!");
                 highscoreTrack();
