@@ -22,6 +22,7 @@ public class GameTest {
     private Mine mine = new Mine(-100, -100);
     private GoldenApple goldenapple = new GoldenApple(-100, -100);
     public static final String HIGHSCORES = "files/highscoreTest.txt";
+    public static final String HIGHSCORES_EMPTY = "files/highscoreTestEmpty.txt";
 
     @Test
     public void getPx() {
@@ -209,7 +210,14 @@ public class GameTest {
     }
 
     @Test
-    public void highscoreReadNoFile() throws IOException {
+    public void highscoreReadNoFile() {
         assertThrows(IOException.class, () -> highscoreReadTest("asdasd"));
     }
+
+    @Test
+    public void highscoreReadEmpty() throws IOException {
+        assertEquals(0, highscoreReadTest(HIGHSCORES_EMPTY));
+    }
+
+
 }

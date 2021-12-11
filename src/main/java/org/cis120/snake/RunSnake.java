@@ -117,7 +117,7 @@ public class RunSnake implements Runnable {
         // displays the highscore of the game
 
         try {
-            highscore = new Label("Highscore: " + highscoreRead());
+            highscore = new Label("Highscore: " + court.highscoreRead());
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -130,17 +130,6 @@ public class RunSnake implements Runnable {
 
         // Start game
         court.reset();
-    }
-
-    public int highscoreRead() throws IOException {
-        BufferedReader reader = new BufferedReader(new FileReader(HIGHSCORES));
-        int counter = 0;
-        for (String line = reader.readLine(); line != null; line = reader.readLine()) {
-            if (Integer.parseInt(line) > counter) {
-                counter = Integer.parseInt(line);
-            }
-        }
-        return counter;
     }
 
     public static void errorMessage() {
