@@ -25,9 +25,9 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2021</copyright>
     <item>
-      <title>File: 2,
+      <title>File: 3,
              Errors: 0,
-             Warnings: 0,
+             Warnings: 2,
              Infos: 0
       </title>
             <link>https://www.seas.upenn.edu/~cis120/current/hw/hw09//checkstyle.html</link>
@@ -46,7 +46,7 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="https://www.seas.upenn.edu/~cis120/current/hw/hw09//checkstyle.html#org.cis120.snake.Powerups.java">org/cis120/snake/Powerups.java</a>
+                  <a href="https://www.seas.upenn.edu/~cis120/current/hw/hw09//checkstyle.html#org.cis120.mushroom.GameTest.java">org/cis120/mushroom/GameTest.java</a>
                 </td>
                 <td>
                   0
@@ -60,7 +60,21 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://www.seas.upenn.edu/~cis120/current/hw/hw09//checkstyle.html#org.cis120.snake.Snake.java">org/cis120/snake/Snake.java</a>
+                  <a href="https://www.seas.upenn.edu/~cis120/current/hw/hw09//checkstyle.html#org.cis120.snake.RunSnake.java">org/cis120/snake/RunSnake.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://www.seas.upenn.edu/~cis120/current/hw/hw09//checkstyle.html#org.cis120.snake.GameCourt.java">org/cis120/snake/GameCourt.java</a>
                 </td>
                 <td>
                   0
