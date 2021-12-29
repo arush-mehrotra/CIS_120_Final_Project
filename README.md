@@ -4,7 +4,6 @@ I recreated Snake, inspired by the classic arcade game Snake, with additional fe
 ## Directory Layout
 
 ```bash
-.
 ├── src/main/java/org/cis120/snake/
 │   ├── Apple.java          # Represents the Apple object and controls its location on the GameCourt
 │   ├── Direction.java      # Indicates the direction an object should move after it collides with an object
